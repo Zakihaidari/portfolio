@@ -17,7 +17,7 @@ body {
 #header{
   width:100%;
   height: 70vh;
-  background-image: linear-gradient(to right, rgba(8, 8, 8, 0.9), rgba(8, 8, 8, 0.6)), url(images/background.JPG);
+  background-image: linear-gradient(to right, rgba(8, 8, 8, 0.9), rgba(8, 8, 8, 0.6)), url(images/background3.png);
   background-size: cover;
   background-position: center;
 }
@@ -35,16 +35,23 @@ nav{
 }
 
 
-.logo{
-  width: 140px;
-
+.logo-text {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff; /* Change color to white */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 10px; /* Adjust as needed */
 }
 
-nav img{
-  border-radius: 4px;
-  padding: 5px;
-  width: 200px;
+/* Style for when hovering over the logo */
+.logo-text:hover {
+  color: #ff004f; /* Change hover color to #ff004f */
+  transition: color 0.3s ease; /* Add smooth transition effect */
 }
+
+
 nav ul li {
   display: inline-block;
   list-style: none;
